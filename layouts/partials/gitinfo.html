@@ -1,11 +1,11 @@
 {{ with .GitInfo }}
 <small>
     Last edited by <strong>{{ .AuthorName }}</strong> on <strong>{{ .AuthorDate.Format "2 January 2006" }}</strong>:
-    <em>{{ .Subject }}</em> (<a href="https://github.com/NorLII/themis/commit/{{ .Hash }}">{{ .AbbreviatedHash }}</a>)
+    <em>{{ .Subject }}</em> (<a href="https://github.com/jamietech/themis/commit/{{ .Hash }}">{{ .AbbreviatedHash }}</a>)
 
     <br>
 
-    <a href="https://github.com/NorLII/themis/commits/master/content/{{ $.File.Path }}">View page history &rarr;</a>
+    <a href="https://github.com/jamietech/themis/commits/master/content/{{ $.File.Path }}">View page history &rarr;</a>
     <br>
-    <a href="https://github.com/NorLII/themis/edit/master/content/{{ $.File.Path }}">Edit this page &rarr;</a></small>
+    <a href="https://github.com/jamietech/themis/edit/master/content/{{ $.File.Path }}">Edit this page &rarr;</a></small>
 {{ end }}
