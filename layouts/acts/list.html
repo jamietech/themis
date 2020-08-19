@@ -1,0 +1,49 @@
+{{ define "main" }}
+<nav id="list">
+    <h1>Acts</h1>
+
+    <h2>In force legislation</h2>
+
+    {{ $inforce := (where .Pages.ByTitle ".Params.inforce" true) }}
+
+    {{ if eq (len $inforce) 0 }}
+        <ul>
+            <li>None</li>
+        </ul>
+    {{ end }}
+
+    <ul>
+    {{ range $inforce }}
+            <li>
+                <a href="{{ .RelPermalink }}">
+                    {{ .Title }} Act {{ .Date.Format "2006" }}
+                </a>
+            </li>
+    {{ end }}
+    </ul>
+
+    <h2>Repealed legislation</h2>
+
+    {{ $repealed1 := (where .Pages.ByTitle ".Params.inforce" false) }}
+    {{ $repealed2 := (where .Pages.ByTitle ".Params.inforce" "eq" nil) }}
+    {{ $repealed := (union $repealed1 $repealed2) }}
+
+    {{ if eq (len $repealed) 0 }}
+        <ul>
+            <li>None</li>
+        </ul>
+    {{ end }}
+
+    <ul>
+    {{ range $repealed }}
+        <li>
+            <a href="{{ .RelPermalink }}">
+                {{ .Title }} Act {{ .Date.Format "2006" }}
+            </a>
+        </li>
+    {{ end }}
+    </ul>
+
+</nav>
+
+{{ end }}

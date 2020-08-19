@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode | default "en" }}" prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+
+        {{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+        {{ $stylesheet := resources.Get "style.sass" | toCSS | minify | fingerprint }}
+        <link href="{{ $stylesheet.RelPermalink }}" rel="stylesheet" type="text/css" integrity="{{ $stylesheet.Data.Integrity }}">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200..900;1,200..900&amp;display=swap" rel="stylesheet">
+
+        <link rel="icon" type="image/png" sizes="180x180" href="/apple-icon-180x180.png">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="HandheldFriendly" content="True">
+        {{ with .Params.Title }}
+        <meta property="og:title" content="{{ . }}">
+        {{ else }}
+        <meta property="og:title" content="{{ .Site.Title }}">
+        {{ end }}
+        <meta property="og:url" content="{{ .Permalink }}">
+        <meta property="og:type" content="website">
+        <meta name="theme-color" content="#E43629">
+        {{ with .Summary }}
+            <meta property="og:description" content="{{ . }}">
+            <meta name="description" content="{{ . }}">
+        {{ else }}
+            <meta property="og:description" content="NorLII provides free, comprehensive and independent access to Norlish legal materials.">
+            <meta name="description" content="NorLII provides free, comprehensive and independent access to Norlish legal materials.">
+        {{ end }}
+        <meta property="og:locale" content="{{ $.Site.LanguageCode | default "en" }}">
+        <meta property="og:image" content="{{ "graph.jpg" | absURL }}">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta name="twitter:card" content="summary_large_image">
+
+        <title>
+            {{ block "title" . }}
+                {{ with .Params.Title }}
+                    {{ . }}
+
+                    {{ if eq $.Type "acts" }}
+                    Act {{ $.Date.Format "2006" }}
+                    {{ end }}
+
+                    -
+                {{ end }}
+                {{ .Site.Title }}
+            {{ end }}
+        </title>
+    </head>
+
+    <body>
+        <div class="main-content">
+            <header>
+                {{- partial "header.html" . -}}
+            </header>
+
+            <main class="{{ if eq .Kind "page" }}{{ .Type }}{{ end }} {{ .Kind }}">
+                {{- block "main" . }}{{- end }}
+            </main>
+        </div>
+    </body>
+</html>

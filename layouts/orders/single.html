@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<section>
+    <img src="/coat.png" class="coat">
+
+    <h1 id="title">{{ .Title }} Order {{ .Date.Format "2006" }}</h1>
+
+    {{ with .Params.summary }}
+        <p><strong>{{ . }}</strong></p>
+    {{ end }}
+
+    <meta>
+        <h2>Status information</h2>
+
+        <h3>Currency of version</h3>
+        <!-- If order not in force, show lastmod as repeal date. Otherwise, if there is a lastmod date show it as the reprint (amendment) date. -->
+        {{ if (or (eq .Params.inforce false) (eq .Params.inforce nil)) }}
+            <!-- Order not in force. Showing lastmod as repeal date. -->
+            <p>Repealed on {{ $.Lastmod.Format "2 January 2006" }}</p>
+        {{ else }}
+            {{ if ne .Date .Lastmod }}
+                <p>Reprint current from {{ $.Lastmod.Format "2 January 2006" }} to date, incorporating amendments</p>
+            {{ else }}
+                <p>Reprint current from {{ $.Lastmod.Format "2 January 2006" }} to date</p>
+            {{ end }}
+        {{ end }}
+
+        <p>Orders on this site are usually updated within 3 working days after a change to the orders.</p>
+    </meta>
+
+    <hr>
+
+    <div id="act-content">
+        {{ .Content }}
+    </div>
+</section>
+
+{{ end }}

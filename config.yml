@@ -1,0 +1,18 @@
+baseURL: "https://norlii.now.sh/"
+languageCode: "en-GB"
+title: "NorLII"
+
+permalinks:
+  acts: /law/:slug-act/
+  orders: /executive-order/:slug/
+  treaties: /treaty/:slug/
+  judgments: /decision/:slug/
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    endLevel: 5
+    ordered: false
+    startLevel: 1

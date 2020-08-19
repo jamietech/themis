@@ -1,0 +1,40 @@
+{{ define "main" }}
+<section>
+
+    <h1>Executive Orders</h1>
+
+    <p>This page lists executive orders pronounced by the Federal Council.</p>
+
+    <h2>In force orders</h2>
+
+    <ul>
+        {{ range where .Pages.ByTitle ".Params.inforce" true }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }} Order {{ .Date.Format "2006" }}</a>
+            (iss. {{ .Date.Format "2 January 2006" }}{{ if ne .Date .Lastmod }}, amd. {{ .Lastmod.Format "2 January 2006" }}{{ end }})
+        </li>
+        {{ end }}
+    </ul>
+
+    <h2>Repealed orders</h2>
+
+    {{ $repealed1 := (where .Pages.ByTitle ".Params.inforce" false) }}
+    {{ $repealed2 := (where .Pages.ByTitle ".Params.inforce" "eq" nil) }}
+    {{ $repealed := (union $repealed1 $repealed2) }}
+
+    {{ if eq (len $repealed) 0 }}
+    <ul>
+        <li>None</li>
+    </ul>
+    {{ end }}
+
+    {{ range $repealed }}
+    <ul>
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }} Order {{ .Date.Format "2006" }}</a>
+            (iss. {{ .Date.Format "2 January 2006" }}{{ if ne .Date .Lastmod }}, amd. {{ .Lastmod.Format "2 January 2006" }}{{ end }})
+        </li>
+    </ul>
+    {{ end }}
+</section>
+{{ end }}

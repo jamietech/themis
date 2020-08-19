@@ -1,0 +1,51 @@
+{{ define "main" }}
+<aside class="normal-display">
+    <h2>{{ .Title }} Act {{ .Date.Format "2006" }}</h2>
+    <strong>Contents</strong>
+    {{ .TableOfContents }}
+</aside>
+
+<section>
+    <img src="/coat.png" class="coat">
+
+    <h1 id="title">
+        {{ .Title }} Act {{ .Date.Format "2006" }}
+    </h1>
+
+    {{ with .Params.summary }}
+        <p><strong>{{ . }}</strong></p>
+    {{ end }}
+
+    <meta>
+        <h2>Status information</h2>
+
+        <h3>Currency of version</h3>
+        <!-- If legislation not in force, show lastmod as repeal date. Otherwise, if there is a lastmod date show it as the reprint (amendment) date. -->
+        {{ if (or (eq .Params.inforce false) (eq .Params.inforce nil)) }}
+            <!-- Legislation not in force. Showing lastmod as repeal date. -->
+            <p>Repealed on {{ $.Lastmod.Format "2 January 2006" }}</p>
+        {{ else }}
+            {{ if ne .Date .Lastmod }}
+                <p>Reprint current from {{ $.Lastmod.Format "2 January 2006" }} to date, incorporating amendments</p>
+            {{ else }}
+                <p>Reprint current from {{ $.Lastmod.Format "2 January 2006" }} to date</p>
+            {{ end }}
+        {{ end }}
+
+        <p>Legislation on this site is usually updated within 3 working days after a change to the legislation.</p>
+    </meta>
+
+    <aside class="small-display">
+        <hr>
+
+        <strong>Contents</strong>
+        {{ .TableOfContents }}
+    </aside>
+
+    <hr>
+
+    <div id="act-content">
+        {{ .Content }}
+    </div>
+</section>
+{{ end }}

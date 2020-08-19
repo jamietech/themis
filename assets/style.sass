@@ -1,0 +1,229 @@
+@import "normalize"
+
+$link: #0049B7
+
+*
+  box-sizing: border-box
+
+body
+  font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+  font-weight: normal
+  font-variant-ligatures: common-ligatures
+  font-variant-numeric: oldstyle-nums //diagonal-fractions
+  font-feature-settings: "ss01", "ss03", "ss04", "onum", "clig" //, "frac"
+
+a
+  color: $link
+a:hover
+  color: lighten($link, 25%)
+
+//
+// HEADER
+//
+
+header
+  background: #E43629
+  padding: 2em
+
+  a
+    display: flex
+    justify-content: center
+    color: #fff
+    text-decoration: none
+  a:hover
+    color: #fff
+
+  h1
+    margin: 0
+    display: inline
+
+//
+// FOOTER
+//
+
+footer
+  background: #263232
+  color: #fff
+
+//
+// PAGE SIZE
+//
+
+// The <main> has ".section" if it is a list page
+
+main.section,
+main.acts nav#list, section#content,
+main.treaties, main.orders, main.judgments
+  width: 50%
+  max-width: 1250px
+  margin: 0 auto
+
+  @media (max-device-width: 785px)
+    padding: 0.5em
+    width: 100%
+    max-width: none
+
+  img
+    max-width: 100%
+
+//
+// LIST PAGES
+//
+
+main.section ul li
+  margin-bottom: 1em
+
+//
+// MAIN PAGE
+//
+
+section#content ol
+  list-style: none
+  padding-left: 0
+  display: flex
+  -webkit-box-orient: horizontal
+  -webkit-box-direction: normal
+  flex-flow: row wrap
+  justify-content: center
+
+  li:not(:last-child)::after
+    content: ""
+    padding-left: 1em
+    padding-right: 1em
+
+  $text: #382b22
+  $light-pink: #fff0f0
+  $pink: #ffe9e9
+  $dark-pink: #f9c4d2
+  $pink-border: #b18597
+  $pink-shadow: #ffe3e2
+
+  li a
+    display: inline-block
+    color: $text
+    text-decoration: none
+    margin-bottom: 2em
+    font-weight: 600
+    font-variant-caps: small-caps
+    padding: 1.25em 2em
+    background: #fff0f0
+    border: 2px solid #b18597
+    border-radius: 0.75em
+    transform-style: preserve-3d
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1)
+  li a:before
+    position: absolute
+    content: ''
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background: $dark-pink
+    border-radius: inherit
+    box-shadow: 0 0 0 2px $pink-border, 0 0.625em 0 0 $pink-shadow
+    transform: translate3d(0, 0.75em, -1em)
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1)
+  li a:hover
+    background: $pink
+    transform: translate(0, 0.25em)
+  li a:hover:before
+    box-shadow: 0 0 0 2px $pink-border, 0 0.5em 0 0 $pink-shadow
+    transform: translate3d(0, 0.5em, -1em)
+  li a:active
+    background: $pink
+    transform: translate(0em, 0.75em)
+  li a:active:before
+    box-shadow: 0 0 0 2px $pink-border, 0 0 $pink-shadow
+    transform: translate3d(0, 0, -1em)
+
+//
+// ACTS
+//
+
+$normal: 768
+$small: $normal - 1
+
+img.coat
+  margin: 0 auto
+  display: block
+  max-width: 100%
+
+@media (min-width: 1024px)
+  aside.small-display
+    display: none
+@media (max-width: 1023px)
+  aside.normal-display
+    display: none
+
+main.acts
+  display: flex
+
+  @media (max-width: 750px)
+    display: inherit
+
+  section, aside
+    padding: 1em
+
+    @media (min-width: 1024px)
+      overflow-x: hidden
+      overflow-y: scroll
+      height: calc(100vh - 8em)
+
+  @media (min-width: 1024px)
+    section
+      flex-grow: 2
+
+    aside
+      max-width: 33%
+
+  aside
+    nav#TableOfContents ul
+      list-style: none
+      padding-left: 0
+      line-height: 1.3
+
+      li ul
+        padding-left: 1em
+
+    h2
+      margin-top: 0
+
+  h1#title
+    margin-top: 0
+
+  div#act-content
+    line-height: 1.3
+
+    p, li
+      max-width: 750px
+    p
+      padding-left: 40px
+    p + ol
+      margin-top: 0
+      padding-left: 80px
+    p:has(+ ol)
+      margin-bottom: 0
+
+    li ol > li, p + ol > li
+      list-style-type: lower-alpha
+
+    li ol > li ol > li, p + ol > li ol > li
+      list-style-type: lower-roman
+
+//
+// TREATIES
+//
+
+main.treaties
+  max-width: 1000px
+  margin: 0 auto
+
+  @media (max-device-width: 785px)
+    padding: 0.5em
+    width: 100%
+    max-width: none
+
+  img
+    max-width: 100%

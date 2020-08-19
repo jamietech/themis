@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section>
+    <h1 id="title">
+        {{ .Title }} of {{ .Date.Format "2006" }}
+    </h1>
+
+    {{ with .Params.summary }}
+        <p><strong>{{ . }}</strong></p>
+    {{ end }}
+
+    <meta>
+        <h2>Status information</h2>
+
+        <h3>Currency of version</h3>
+        <!-- If legislation not in force, show lastmod as repeal date. Otherwise, if there is a lastmod date show it as the reprint (amendment) date. -->
+        {{ if (or (eq .Params.inforce false) (eq .Params.inforce nil)) }}
+            <!-- Legislation not in force. Showing lastmod as repeal date. -->
+            <p>Ceased being in force on {{ $.Lastmod.Format "2 January 2006" }}</p>
+            <p>Originally became in force on {{ $.Date.Format "2 January 2006" }}</p>
+        {{ else }}
+            {{ if ne .Date .Lastmod }}
+                <p>Version current from {{ $.Lastmod.Format "2 January 2006" }} to date, incorporating amendments</p>
+            {{ else }}
+                <p>Version current from {{ $.Lastmod.Format "2 January 2006" }} to date</p>
+            {{ end }}
+        {{ end }}
+    </meta>
+
+    <hr>
+
+    <div id="treaty-content">
+        {{ .Content }}
+    </div>
+</section>
+{{ end }}
