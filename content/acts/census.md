@@ -1,7 +1,8 @@
 ---
 title: Census
 date: 2020-04-15
-inforce: true
+modified: 2020-08-13
+inforce: false
 summary: An Act to require the government to conduct a census at the beginning of each Prime Minister's term.
 ---
 
