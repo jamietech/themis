@@ -1,6 +1,7 @@
 ---
 title: Pearls and Exiles
 date: 2020-06-26
+modified: 2020-07-09
 inforce: true
 summary: An Act to ensure the safety of Norlund citizens and make clear when the pearling of another player is permitted.
 ---
@@ -49,10 +50,17 @@ If a pearled player has been freed under subsection 2(3) outside of the 48 hour 
 
 ### 6 Declaring exiles and effect of declaration
 
-1. Any two of: the Prime Minister, the Minister of Foreign Affairs, the Minister of Defence, the Minister of Interior, may declare a foreigner an exile within Norlund claims.
+1. Any two of: the Minister of Foreign Affairs, the Minister of Defence, or the Minister of Interior may declare a foreigner an exile within Norlund claims.
 2. Anyone may pearl an exile if the exile is within Norlund claims. The pearling is automatically considered valid and justified.
 3. The pearl of the exile must be given to the Norlund government and held in a federal location. This may be changed by section 3.
 4. The public is only able to start a petition to change the location if the pearl's location has been changed by section 3 and is not held in a federal location controlled by the government.
+5. Exiles are not permitted to become citizens or residents of Norlund.
+
+### 6A Revoking exile declarations
+
+A foreigner's exile status may be revoked by the following means:
+1. If both the ministers who have declared them exiles are still in their positions, their exile status may be removed by the agreement of one minister who agreed to exile them, and one other minister who is either: the Minister of Foreign Affairs, the Minister of Defence, the Minister of Interior.
+2. If either of the ministers who have declared them exiles are no longer in their positions, their exile status may be removed by the agreement of two of: the Minister of Foreign Affairs, the Minister of Defence, the Minister of Interior.
 
 ### 7 Referendum to overrule exile decision
 
