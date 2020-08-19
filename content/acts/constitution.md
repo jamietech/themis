@@ -1,6 +1,7 @@
 ---
 title: Constitution
 date: 2020-05-18
+modified: 2020-06-25
 inforce: true
 summary: An Act to establish the basis of all law within Norlund.
 ---
@@ -70,6 +71,18 @@ The People of Norlund, in assembly united, established the below Constitution as
 4. The House of Commons selects a Custodian for a term of one month with a simple majority, who may be removed at any time with a simple majority of votes.
 5. The Custodian is responsible for promulgating and creating a list of currently binding legal acts, as well as moderating debate within the House of Commons.
 6. The House of Commons may not remove citizenship or change the legal status of a citizen through acts.
+
+### 6A House of Commons power to dismiss
+
+1. The House of Commons may dismiss any Minister in the Federal Council, including the Prime Minister, with a vote of no confidence, which requires a simple majority.
+2. If the Prime Minister is dismissed by a vote of no confidence, the Monarch shall appoint a Minister from among the Federal Council to serve as temporary Prime Minister until a snap election can be held to elect a new Prime Minister.
+3. A Prime Minister who is elected during a snap election serves out the remainder of the current government's term. If a Prime Minister is dismissed within 14 days of the end of their term, no snap election is to be held, and the temporary Prime Minister shall simply serve out the remainder of the government's term.
+4. When a position on the Federal Council becomes vacant, the Prime Minister shall nominate a citizen as a replacement, whom the House of Commons must confirm with a simple majority.
+5. The House of Commons may dismiss the entire government at once with a two-thirds majority, in which case the Monarch shall appoint a temporary Prime Minister from among the citizenry.
+
+### 6B House of Commons power to dissolve
+
+The House of Commons may call an election with a two-thirds majority.
 
 ### 7 The Federal Court
 
