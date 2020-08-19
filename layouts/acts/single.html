@@ -27,6 +27,7 @@
         {{ else }}
             {{ if ne .Date .Lastmod }}
                 <p>Reprint current from {{ $.Lastmod.Format "2 January 2006" }} to date, incorporating amendments</p>
+                <p>Originally enacted on {{ .Date.Format "2 January 2006" }}</p>
             {{ else }}
                 <p>Reprint current from {{ $.Lastmod.Format "2 January 2006" }} to date</p>
             {{ end }}
