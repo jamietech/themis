@@ -1,13 +1,10 @@
 ---
 title: Constitution
 date: 2020-05-18
-modified: 2020-06-25
+modified: 2020-08-06
 inforce: true
 summary: An Act to establish the basis of all law within Norlund.
 ---
-
-***Editor's note--- <br>
-This reprint does not yet incorporate amendments which are in force.***
 
 ### Preamble
 
@@ -118,3 +115,12 @@ The House of Commons may call an election with a two-thirds majority.
 5. All previously existing Cantons (previously referred to as Municipalities) retain their former borders.
 6. The city of Kannin is immediately given Canton status upon this Constitution’s ratification.
 7. The Constituent Assembly is immediately dissolved upon this Constitution’s ratification.
+
+### 12 Referendum
+
+1. The following must be put to the vote of the People:
+    1. accession to organisations for collective security or to supranational communities.
+2. If a decision is subject to a mandatory referendum, it will not be signed or ratified until it has been approved by the People.
+3. Decisions may be instantly ratified during a State of Emergency by a four-fifths federal council majority. Such decisions must be announced instantly and have a referendum within 72 hours of ratification.
+4. Proposals that are submitted to the vote of the People are accepted if a majority of those who vote approve them.
+5. Mandatory referendums must last 48 hours.
