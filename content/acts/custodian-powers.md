@@ -1,7 +1,8 @@
 ---
 title: Custodian Powers
 date: 2020-06-15
-inforce: true
+inforce: false
+modified: 2020-08-27
 summary: An Act to provide for the powers of the Custodian.
 ---
 

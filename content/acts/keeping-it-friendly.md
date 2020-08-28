@@ -2,6 +2,7 @@
 title: Keeping it Friendly
 date: 2020-07-12
 inforce: true
+modified: 2020-08-27
 summary: An Act to establish a more friendly and united community.
 ---
 
@@ -216,6 +217,14 @@ A person must not engage in behaviour that could reasonably be described as---
     2. a characteristic that is often imputed to a person with any of the attributes; or
     3. an attribute that a person is presumed to have, or to have had at any time, by the person discriminating; or
     4. an attribute that a person had, even if the person did not have it at the time of the discrimination.
+
+### 24A Disrupting the House proscribed
+
+1. This section applies within any channel the dominant purpose of which is communication for House of Commons business.
+2. A person must not---
+    1. disrupt business in a burdensome manner; or
+    2. engage in name calling or levy insults; or
+    3. use abusive and insulting language of a nature likely to create disorder.
 
 ## Part 2 Enforcement by moderators
 

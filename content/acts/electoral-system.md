@@ -2,6 +2,7 @@
 title: Electoral System
 date: 2020-06-20
 inforce: true
+modified: 2020-08-27
 summary: An Act to regulate the conduct of elections and establish the Electoral Committee.
 ---
 
@@ -15,13 +16,13 @@ summary: An Act to regulate the conduct of elections and establish the Electoral
 
 1. The Prime Minister must announce the date of the Federal Council elections at least two weeks before the termination of his term.
 2. The election must take place within two days of the end of a term.
-3. The date of the elections for Monarch must be announced by the Custodian and must take place at most two weeks after his abdication.
+3. The date of the elections for Monarch must be announced by the Prime Minister and must take place at most two weeks after his abdication.
 
 ### 3 Electoral Committee
 
 1. The Electoral Committee is the body responsible for the hosting of elections, assigning and sending out Universal Voting ID's, creating ballots, counting the votes and posting results.
-2. The Electoral Committee consists of the Custodian and representatives from each of the Cantons.
-3. The members of the Electoral Committee cannot be holding any federal positions, nor be running for them, with the exception of the Custodian.
+2. The Electoral Committee consists of representatives from each of the Cantons.
+3. The members of the Electoral Committee cannot be holding any federal positions, nor be running for them.
 4. The Electoral Committee is called into existence with the announcement of an election and dissolved instantly after the posting of election results.
 5. The distribution of tasks within the Committee is decided internally, based on the abilities of its members.
 6. All members must have insight into election results to verify their legitimacy and to prevent electoral fraud.

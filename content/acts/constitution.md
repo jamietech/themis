@@ -1,7 +1,7 @@
 ---
 title: Constitution
 date: 2020-05-18
-modified: 2020-08-06
+modified: 2020-08-27
 inforce: true
 summary: An Act to establish the basis of all law within Norlund.
 ---
@@ -65,8 +65,8 @@ The People of Norlund, in assembly united, established the below Constitution as
 1. The House of Commons is the legislative branch of government.
 2. All citizens exercising full voting rights are eligible to participate in the House of Commons.
 3. The House of Commons may pass legal acts with a simple majority.
-4. The House of Commons selects a Custodian for a term of one month with a simple majority, who may be removed at any time with a simple majority of votes.
-5. The Custodian is responsible for promulgating and creating a list of currently binding legal acts, as well as moderating debate within the House of Commons.
+4. *(Repealed.)*
+5. *(Repealed.)*
 6. The House of Commons may not remove citizenship or change the legal status of a citizen through acts.
 
 ### 6A House of Commons power to dismiss
