@@ -1,7 +1,7 @@
 ---
 title: Constitution
 date: 2020-05-18
-modified: 2020-08-27
+modified: 2020-11-27
 inforce: true
 summary: An Act to establish the basis of all law within Norlund.
 ---
@@ -24,9 +24,13 @@ The People of Norlund, in assembly united, established the below Constitution as
 1. All citizens of Norlund, regardless of their place of residence, possess equal rights.
 2. The citizenry of Norlund are divided into residents and citizens.
 3. A resident is a member of Norlund who resides within the borders of the country.
-    1. Residents do not possess voting rights and are given basic access to public facilities within their Canton of residence.
-4. A citizen is an active member of Norlund who resides solely within the borders of Norlund, does not possess secondary citizenships and has been a resident for a period of at least three days and has been vetted by a Minister or the Monarch.
-    1. Citizens possess full voting rights and access to all public factories and storage within their canton of residence.
+    1. Residents do not possess voting rights or political rights and are given basic access to public facilities within their Canton of residence.
+    2. Residency may be granted and revoked as prescribed by law.
+4. A citizen is a member of Norlund who has been granted citizenship by the Monarch or the Federal Council.
+    1. Citizens possess full voting and political rights and access to all public factories and storage within their canton of residence.
+    2. Citizenship is formally granted at the discretion of the Monarch, or by a unanimous vote in the Federal Council.
+    3. The Federal Council shall keep and maintain a registry of all citizens and residents.
+    4. All individuals who have been granted citizenship as of November 23rd, 2020, shall automatically be recognized as citizens of Norlund.
 5. Citizenship can be rescinded only by personal request or by being indicted in the Federal Court for treason or any other crime that is serious enough to legitimise the removal of one’s citizenship.
 
 ### 3 The Laws of Norlund
