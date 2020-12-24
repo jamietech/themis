@@ -1,7 +1,8 @@
 ---
 title: Thomas Archipelago Natural Resources Protection
 date: 2020-05-01
-inforce: true
+inforce: false
+modified: 2020-08-29
 summary: An Act to ensure the continued existence of the Thomas Archipelago Nature Preserve.
 ---
 

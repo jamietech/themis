@@ -1,7 +1,8 @@
 ---
 title: Kannin Castle Renovation
 date: 2020-07-01
-inforce: true
+inforce: false
+modified: 2020-08-29
 summary: An Act to create a more aesthetically pleasing and iconic structure.
 ---
 

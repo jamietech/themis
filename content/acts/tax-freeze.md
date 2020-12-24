@@ -1,7 +1,8 @@
 ---
 title: Tax Freeze
 date: 2020-05-04
-inforce: true
+inforce: false
+modified: 2020-08-29
 summary: An Act to adopt a freeze on taxes until the new constitution of Norlund is adopted.
 ---
 
