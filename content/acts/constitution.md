@@ -1,7 +1,7 @@
 ---
 title: Constitution
 date: 2020-05-18
-modified: 2020-11-27
+modified: 2020-12-06
 inforce: true
 summary: An Act to establish the basis of all law within Norlund.
 ---
@@ -92,11 +92,9 @@ The House of Commons may call an election with a two-thirds majority.
 3. The Head Judge of Norlund is selected by the Judges from amongst themselves for a term of three months.
 4. The Judges cannot hold nor seek any other federal positions.
 
-### 8 The Military Council
+### 8 \[Repealed]
 
-1. The Military Council is an ancillary branch of the Norlish government tasked with undertaking military projects and procuring the resources necessary to complete them.
-2. The Military Council is composed of the Minister of Defence and one delegate from each of the Cantons. 
-3. The burdens set upon each Canton must be approved by a simple majority within the Military Council and must be split proportionally according to the demographic and economic potential of each Canton.
+*Omitted.*
 
 ### 9 Extraordinary Measures
 
