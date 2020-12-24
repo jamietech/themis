@@ -1,7 +1,8 @@
 ---
 title: House of Commons (Procedure)
 date: 2020-08-27
-inforce: true
+modified: 2020-12-10
+inforce: false
 summary: An Act to codify the procedure of the House of Commons and to abolish the office of Custodian.
 ---
 
