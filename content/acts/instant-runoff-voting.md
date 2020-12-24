@@ -1,7 +1,8 @@
 ---
 title: Instant Run-off Voting
 date: 2020-03-23
-inforce: true
+inforce: false
+modified: 2020-08-29
 summary: An Act to ensure a superior and more democratic voting method.
 ---
 
