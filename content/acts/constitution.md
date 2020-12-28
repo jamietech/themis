@@ -88,7 +88,7 @@ The House of Commons may call an election with a two-thirds majority.
 ### 7 The Federal Court
 
 1. The Federal Court is the judicial branch of government and serves as the Administrative, Civil and Criminal court of Norlund and may veto legal acts which do not abide by the Constitution.
-2. The Federal Court of Norlund is composed of the Head Judge and a Judge from each of the Municipalities.
+2. The Federal Court of Norlund is composed of three judges.
     1. Judges are appointed to serve a term of one month following each general election. Judges are nominated by the Federal Council, and confirmed by a simple majority in the House of Commons. 
     2. Judges may be dismissed by the House of Commons with a vote of no confidence.
 3. The Head Judge of Norlund is selected by the Judges from amongst themselves for a term of three months.
