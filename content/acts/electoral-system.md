@@ -2,8 +2,8 @@
 title: Electoral System
 date: 2020-06-20
 inforce: true
-modified: 2020-08-27
-summary: An Act to regulate the conduct of elections and establish the Electoral Committee.
+modified: 2020-12-26
+summary: An Act to regulate the conduct of elections and establish the Electoral Commission.
 ---
 
 ### 1 Voting rights
@@ -18,14 +18,18 @@ summary: An Act to regulate the conduct of elections and establish the Electoral
 2. The election must take place within two days of the end of a term.
 3. The date of the elections for Monarch must be announced by the Prime Minister and must take place at most two weeks after his abdication.
 
-### 3 Electoral Committee
+### 3 Electoral Commission
 
-1. The Electoral Committee is the body responsible for the hosting of elections, assigning and sending out Universal Voting ID's, creating ballots, counting the votes and posting results.
-2. The Electoral Committee consists of representatives from each of the Cantons.
-3. The members of the Electoral Committee cannot be holding any federal positions, nor be running for them.
-4. The Electoral Committee is called into existence with the announcement of an election and dissolved instantly after the posting of election results.
-5. The distribution of tasks within the Committee is decided internally, based on the abilities of its members.
+1. The Electoral Commission is the body responsible for the hosting of elections, assigning and sending out Universal Voting ID's, creating ballots, counting the votes and posting results.
+2. *Omitted*.
+3. The members of the Electoral Commission cannot be holding any federal positions, nor be running for them.
+4. The Electoral Commission is called into existence with the announcement of an election and dissolved instantly after the posting of election results.
+5. The distribution of tasks within the Commission is decided internally, based on the abilities of its members.
 6. All members must have insight into election results to verify their legitimacy and to prevent electoral fraud.
+7. The King is responsible for selecting Electoral Commission members and ensuring timely handling of elections.
+    1. Only citizens of Norlund are eligible for a role on the Electoral Commission.
+8. The Federal Council shall share a registry of all citizens with the Electoral Commission, including discord name, in-game name, and, if possible, date citizenship was granted.
+9. The King shall not run for any Federal Council positions.
 
 ### 4 Elections
 
@@ -42,3 +46,5 @@ summary: An Act to regulate the conduct of elections and establish the Electoral
 2. Electoral Commission members who leak the UVID lists of citizens shall have their voting rights rescinded indefinitely and are barred from participating in the Electoral Commission, and may have their citizenship suspended depending on the extent of the crime.
 3. Electoral Commission members who leak the names of voters and their selected candidates shall have their voting rights rescinded indefinitely and are barred from participating in the Electoral Commission, and may have their citizenship suspended depending on the extent of the crime.
 4. Candidates who continue campaigning into the voting period shall be punished based on the extent of their campaigning, but cannot have their voting rights rescinded.
+5. Voting data must not be shared outside of the Electoral Commission before the end of the election.
+6. No-one who is not a member of the Electoral Commission shall have access to any voting data before the end of the election.
