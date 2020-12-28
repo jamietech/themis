@@ -1,7 +1,7 @@
 ---
 title: Constitution
 date: 2020-05-18
-modified: 2020-12-13
+modified: 2020-12-26
 inforce: true
 summary: An Act to establish the basis of all law within Norlund.
 ---
@@ -12,12 +12,20 @@ The People of Norlund, in assembly united, established the below Constitution as
 
 ### 1 The Kingdom
 
-1. The Kingdom of Norlund is a confederation of autonomous Cantons.
+1. The Kingdom of Norlund is a Nation composed of autonomous Cantons, subject to the powers of the federal union.
 2. The Kingdom of Norlund is a democratic state.
-3. The Kingdom is divided into Cantons and Territories.
-    1. A Canton is an autonomous entity within the Kingdom which has a population of at least three citizens.
-    2. A Territory is a region within the Kingdom not claimed by a Canton and under the direct control of the Federal Council.
-4. The Capital of the Kingdom of Norlund is the Canton which currently holds the seat of the Monarch.
+3. The Kingdom shall be subdivided among the following Cantons:
+    1. The Canton of Kannin.
+    2. The Canton of Veria.
+    3. The Canton of Tallum.
+    4. The Canton of YosLan.
+    5. The Canton of Tawa.
+    6. The Canton of Palaisance.
+4. A Territory is a region within the Kingdom not claimed by a Canton and under the direct control of the Federal Council.
+5. The Capital of the Kingdom of Norlund is the Canton which currently holds the seat of the Monarch.
+
+*Editor's note---* <br/>
+Subsection (5) was renumbered from (4) by the editor following [passage of CA14](https://discord.com/channels/598368932700618755/704041049592430594/791752961356333066).
 
 ### 2 The Citizens
 
